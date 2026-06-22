@@ -1,0 +1,41 @@
+.table-row {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+  color: #ffffff;
+}
+
+.coin-type {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.values {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .table-row {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .values {
+    width: 120px;
+  }
+}
